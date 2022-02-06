@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+.center{
+    background-image: url(../img/prcenter/bg.jpg);
+}
+
+
+#prcenter{}
+#prcenter .wrap{
+    width: 100%;
+    padding: 0;
+}
+
+article{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+#firstCont{
+    padding-bottom: 120px;
+}
+
+#firstCont .cont{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#firstCont .cont .leftTxt{
+    width: calc(100% - 400px);
+    color: #555;
+}
+#firstCont .cont .leftTxt h1{
+    font-size: 30px;
+    line-height: 1.6;
+    letter-spacing: -1px;
+    padding-bottom: 40px;
+}
+#firstCont .cont .leftTxt h1:after{
+    content: "";
+    display: block;
+    width: 59px;
+    height: 2px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(../img/prcenter/border.png);
+    margin-top: 38px;
+}
+#firstCont .cont .leftTxt p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#firstCont .cont .rightImg{
+    padding: 0 80px;
+}
+#firstCont .cont .rightImg img{
+    display: block;
+}
+
+
+#mid_banner{
+    width: 100%;
+    height: 480px;
+    background-image: url(../img/prcenter/bg2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+#mid_banner .leftImg{
+    position: absolute;
+    top: -60px; 
+    left: 200px;
+}
+#mid_banner .leftImg img{
+    display: block; 
+}
+#mid_banner .rightTxt{
+    color: #fff;
+    text-align: center;
+    width: 580px;
+    margin-right: 200px;
+}
+#mid_banner .rightTxt h2{
+    font-size: 22px;
+}
+#mid_banner .rightTxt h1{
+    color: #f47321;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+#mid_banner .rightTxt p{
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+#threeSuppt{
+    padding: 120px 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#threeSuppt .box{
+    width: 380px;
+    margin-right: 20px;
+}
+#threeSuppt .box:nth-child(3){
+    margin-right: 0;
+}
+
+
+#threeSuppt .box .top{
+    color: #555;
+    margin-bottom: 20px;
+}
+#threeSuppt .box .top h3{
+    font-size: 22px;
+}
+#threeSuppt .box .top h3:after{
+    content: "";
+    display: block;
+    width: 41px;
+    height: 3px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(../img/prcenter/border_orange.png);
+    margin: 18px 0 20px;
+}
+
+#threeSuppt .box .top p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+#threeSuppt .box .bottom{
+    width: 100%;
+    height: 225px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@media (max-width: 1023px){
+    article{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #firstCont .cont{
+        position: relative;
+    }
+    #firstCont .cont .leftTxt{
+        width: 100%;
+    }
+    #firstCont .cont .rightImg{
+        padding: 0;
+        position: absolute;
+        right: 20px;
+        top: 160px;
+    }
+    #firstCont .cont .rightImg img{
+        width: 100px;
+    }
+    #mid_banner{
+        height: 600px;
+        justify-content: flex-start;
+    }
+    #mid_banner .leftImg{
+        left: 50%; 
+        top: -80px;
+        transform: translateX(-50%);
+    }
+    #mid_banner .rightTxt{
+        position: absolute;
+        left: 120px;
+        bottom: 70px;
+    }
+
+    #threeSuppt .box{
+        width: 32%;
+        margin-right: 2%;
+    }
+    #threeSuppt .box .bottom{
+        height: 180px;
+    }
+}
+@media (max-width: 767px){
+    #firstCont{
+        padding: 0;
+    }
+    #firstCont .cont{
+        padding: 80px 0;
+        position: relative;
+    }
+    #firstCont .cont .leftTxt h1{
+        font-size: 24px;
+    }
+    #firstCont .cont .rightImg{
+        padding: 0;
+        position: absolute;
+        top: 180px; 
+        right: 50%;
+        margin-right: -100px;
+    }
+    #firstCont .cont .rightImg img{
+        width: 200px;
+        opacity: 0.5;
+    }
+    #mid_banner{
+        width: 100%;
+        height: 640px;
+    }
+    #mid_banner .leftImg{
+        top: -40px;
+    }
+    #mid_banner .leftImg img{
+        width: 300px;
+    }
+    #mid_banner .rightTxt{
+        position: static;
+        width: 90%;
+        margin: 200px auto 0;
+    }
+
+    #threeSuppt{
+        padding: 80px 0 40px;
+    }
+    #threeSuppt .box{
+        width: 100%;
+        margin: 0 0 40px;
+    }
+}

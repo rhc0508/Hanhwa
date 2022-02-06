@@ -1,0 +1,324 @@
+@charset "utf-8";
+
+.career{
+    background-image: url(../img/careers/bg.jpg);
+}
+
+#careers{}
+#careers .wrap{
+    width: 100%;
+    padding: 0;
+}
+
+article{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+#human{
+    padding-bottom: 120px;
+} 
+#human .talent{
+    padding-top: 100px;
+} 
+#human .talent h1{
+    font-size: 22px;
+    color: #555;
+} 
+#human .talent > h1:after{
+    content: "";
+    display: block;
+    background-size: cover;
+    width: 41px;
+    height: 3px;
+    background-position: 50% 50%;
+    background-image: url(../img/careers/border_orange.png);
+    margin: 18px 0 20px;
+}
+#human .talent .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-top: 40px;
+} 
+#human .talent .boxes .box{
+    width: 380px;
+    margin-right: 20px;
+} 
+#human .talent .boxes .box:nth-child(3){
+    margin-right: 0;
+}
+#human .talent .boxes .box .img_part{
+    padding: 40px 0;
+} 
+#human .talent .boxes .box .img_part img{
+    display: block;
+    margin: 0 auto;
+} 
+#human .talent .boxes .box .txt_part{
+    color: #555;
+} 
+#human .talent .boxes .box .txt_part h5{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+} 
+#human .talent .boxes .box .txt_part h1{
+    font-size: 26px;
+    color: #f47321;
+    text-align: center;
+} 
+#human .talent .boxes .box .txt_part h4{
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 1.6;
+} 
+#human .talent .boxes .box .txt_part p{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 1.6;
+} 
+
+#mid_banner{
+    width: 100%;
+    padding: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(../img/careers/bg2.jpg);
+}
+#mid_banner .wrap{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#mid_banner .wrap .txt_part{
+    color: #fff;
+    width: 680px;
+    /* padding-top: 60px; */
+}
+#mid_banner .wrap .txt_part h1{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+#mid_banner .wrap .txt_part h1:after{
+    content: "";
+    display: block;
+    width: 59px; height: 2px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(../img/careers/border.png);
+    margin: 18px 0 20px;
+}
+#mid_banner .wrap .txt_part p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+#mid_banner .wrap .img_part{}
+#mid_banner .wrap .img_part img{
+    display: block;
+}
+
+
+#train{
+    padding: 120px 0 80px;
+}
+#train .top{
+    color: #555;
+}
+#train .top h1{
+    font-size: 22px;
+}
+#train .top h1:after{
+    content: "";
+    display: block;
+    background-size: cover;
+    width: 41px;
+    height: 3px;
+    background-position: 50% 50%;
+    background-image: url(../img/careers/border_orange.png);
+    margin: 18px 0 20px;
+}
+#train .top h2{
+    font-size: 18px;
+    line-height: 1.6;
+}
+#train .top p{
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 20px 0 40px;
+}
+#train .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+#train .bottom .box{
+    width: 380px;
+    margin-right: 20px;
+}
+#train .bottom .box:nth-child(3){
+    margin-right: 0;
+}
+#train .bottom .box .img_part{
+    height: 195px;
+    background-size: cover;
+    background-position: 50% 50%;
+    /* background-image: url(../img/careers/img01.jpg); */
+    padding-top: 25px;
+}
+#train .bottom .box .img_part .icon{
+    width: 75px; height: 75px;
+    background-size: cover;
+    background-position: 50% 50%;
+    /* background-image: url(../img/careers/icon01.png); */
+    margin: 0 auto;
+}
+#train .bottom .box .img_part h3{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+#train .bottom .box .list{}
+#train .bottom .box .list > ul{
+    height: auto;
+}
+#train .bottom .box .list > ul > li{
+    /* height: 55px; */
+    background-color: #fff;
+}
+#train .bottom .box .list > ul > li > .txt_list{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 54px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #f47321;
+}
+#train .bottom .box .list > ul > li > .txt_list > .onBtn{
+    display: inline-block;
+    padding: 20px 0;
+    width: 15px; height: 55px;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/careers/btn_on.png);
+    cursor: pointer;
+}
+#train .bottom .box .list > ul > li > ul{
+    display: none;
+    width: 100%; height: auto;
+    padding: 20px 0;
+    background: #f4f4f4;
+    /* max-height: 0;
+    transition: max-height 0.5s;
+    overflow: hidden; */
+}
+/* #train .bottom .box .list > ul > li > ul.open{
+    max-height: 200px;
+} */
+#train .bottom .box .list > ul > li > ul > li{
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+@media (max-width:1023px){
+    article{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #human{
+        padding-bottom: 80px;
+    } 
+    #human .talent{
+        padding-top: 60px;
+    } 
+
+    #human .talent .boxes .box{
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    #mid_banner .wrap{
+        width: 90%;
+        align-items: center;
+    }
+    #mid_banner .wrap .txt_part{
+        width: 60%;
+        padding-top: 0;
+    }
+    #mid_banner .wrap .img_part{}
+    #mid_banner .wrap .img_part img{
+        width: 260px;
+    }
+
+    #train .bottom .box{
+        width: 32%;
+        margin-right: 2%;
+    }
+}
+@media (max-width:767px){
+    #human{
+        padding-bottom: 80px;
+    } 
+    #human .talent{
+        padding-top: 80px;
+    } 
+    #human .talent h1{
+        font-size: 20px;
+    }
+
+    #human .talent .boxes .box{
+        width: 100%;
+    }
+    #human .talent .boxes .box .img_part img{
+        width: 140px;
+    }
+
+    #mid_banner .wrap{
+        padding: 80px 0;
+        flex-direction: column;
+    }
+    #mid_banner .wrap .txt_part{
+        width: 100%;
+    }
+    #mid_banner .wrap .txt_part h1{
+        letter-spacing: -1px;
+    }
+    #mid_banner .wrap .img_part{
+        padding: 40px 0;
+    }
+
+    #train{
+        padding: 80px 0 40px;
+    }
+    #train .top h1{
+        font-size: 20px;
+    }
+    #train .top h2{
+        font-size: 20px;
+    }
+
+    #train .bottom .box{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;   
+    }
+    #train .bottom .box .img_part{
+        width: 55%;
+        margin: 0 auto;
+    }
+
+}

@@ -1,0 +1,243 @@
+@media (max-width:1023px){
+    main{
+        width: 100%; height: 860px;
+    }
+    main #slider .slide .txtCont{
+        left: 50px; bottom: 260px;
+    }
+    main .play_ctrl{
+        left: 50px;
+    }
+
+    article{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    article#business .contents .contBox{
+        width: calc(50% - 40px);
+        margin: 0 20px 100px;
+    }
+
+    article#images{
+        width: 100%;
+    }
+    article#images .banner_box{
+        height: 270px;
+    }
+
+    article#story{
+        width: 100%;
+        margin: 0 auto;
+        padding: 60px 30px;
+    }
+    article#story .contents .contBox{
+        width: calc(100% / 3 - 20px); 
+    }
+    article#story .contents .contBox .img{
+        width: 100%; height: 180px;
+    }
+
+
+    article#three_cont .wrap .box{
+        width: calc(50% - 20px);
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    article#three_cont .wrap .box .top p{
+        padding-top: 40px;
+    }
+    article#three_cont .wrap .box .bottom_btn{
+        display: none;
+    }
+    article#three_cont .wrap .box.three_btns{display: block;}
+    article#three_cont .wrap .box.three_btns ul{padding-top: 20px;}
+    article#three_cont .wrap .box.three_btns ul li{
+        margin-top: 20px;
+    }
+    article#three_cont .wrap .box.three_btns ul li button{
+        width: 100%;
+        height: 42px;
+        border: 1px solid #555;
+        background-color: #fff;
+        font-size: 16px;
+        color: #555;
+        position: relative;
+    }
+    article#three_cont .wrap .box.three_btns ul li button span{
+        display: block;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-image: url(../img/more_btn.png);
+        width: 8px; height: 17px;
+        position: absolute;
+        top: 50%; right: 20px;
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width:767px){
+    main{
+        width: 100%; height: 660px;
+    }
+    main #slider .slide{
+        height: 660px;
+        background-position: 50% 50%;
+    }
+    main #slider .slide .txtCont{
+        left: 50px; bottom: 120px;
+    }
+    main #slider .slide .txtCont h2{
+        font-size: 30px;
+    }
+    main #slider .slide .txtCont h1{
+        font-size: 50px;
+    }
+    main #slider .slide .txtCont h3{
+        font-size: 25px;
+    }
+
+
+    article#business{
+        width: 100%;
+        padding: 0 20px;
+    }
+    article#business .title > h1{
+        font-size: 34px;
+    }
+    article#business .title > p{
+        font-size: 13px;
+    }
+
+    article#business .contents{
+        margin-bottom: 40px;
+    }
+    article#business .contents .contBox{
+        width: 100%;
+        margin: 0 20px 50px;
+    }
+    article#business .contents .contBox:last-child{
+        margin-bottom: 0;
+    }
+    article#business .contents .contBox .txt{
+        margin-top: 50px;
+    }
+    article#business .contents .contBox .txt > p{
+        font-size: 13px;
+    }
+
+    article#images{
+        width: 100%;
+    }
+    article#images .banner_box{
+        width: 50%; height: 180px;
+    }
+    article#images .banner_box:last-child{
+        display: none;
+    }
+    article#images .banner_box .dark .icon a{
+        width: 30px; height: 30px;
+    }
+    article#images .banner_box .dark .icon .txt p{
+        font-size: 16px;
+    }
+
+    article#story{
+        padding: 40px 30px;
+    }
+    article#story .title{
+        margin-bottom: 40px;
+    }
+    article#story .title > h1{
+        font-size: 34px;
+    }
+    article#story .title > p{
+        font-size: 13px;
+        letter-spacing: -1px;
+    }
+
+    article#story .contents{
+        justify-content: space-between;
+    }
+    article#story .contents .contBox{
+        width: calc(50% - 10px);
+        margin: 0;
+    }
+    article#story .contents .contBox:last-child{
+        display: none;
+    }
+    article#story .contents .contBox .img{
+        height: 100px;
+    }
+    article#story .contents .contBox .txt h4{
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: -1px;
+        margin: 10px 0;
+    }
+    article#story .contents .contBox .txt p{
+        display: none;
+    }
+
+    article#banner{
+        height: 160px;
+    }
+    article#banner .wrap .txt .logoImg{
+        width: 120px; 
+        height: 24px;
+    }
+    article#banner .wrap .txt h2{
+        font-size: 22px;
+    }
+    article#banner .wrap .txt button{
+        width: 100px;
+        height: 24px;
+    }
+
+    article#three_cont{
+        margin: 60px auto;
+    }
+    article#three_cont .wrap{
+        position: relative;
+        justify-content: space-between;
+    }
+    article#three_cont .wrap .box{
+        width: calc(50% - 1px); 
+        height: 150px;
+        margin: 0 0 20px 0;
+
+    }
+    article#three_cont .wrap .box .top h2{
+        font-size: 16px;
+        padding-bottom: 0;
+    }
+    article#three_cont .wrap .box .top p{
+        display: none;
+    }
+    article#three_cont .wrap .box.fp_box .top p{
+        display: block;
+    }
+    article#three_cont .wrap .box .top .img > img{
+        display: none;
+    }
+    article#three_cont .wrap .box.career{
+        position: absolute;
+        top: 0; right: 0;
+    }
+    article#three_cont .wrap .box.career .top{
+        background-color: #82a5ae;
+        background-image: none;
+    }
+    article#three_cont .wrap .box.fp_box{
+        width: 100%;
+    }
+    article#three_cont .wrap .box.three_btns{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    article#three_cont .wrap .box.three_btns ul li button span{
+        right: 30px;
+    }
+
+}
