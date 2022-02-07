@@ -133,7 +133,7 @@ $(document).ready(function(){
     }
     $("#train .bottom").html($list_case);
     $("#train .bottom .box").each(function(j){
-        $(this).find(".img_part").css("background-image", `url(../img/careers/${$train_arr[j].bg})`);
+        $(this).find(".img_part").css("background-image", `url(./img/careers/${$train_arr[j].bg})`);
         $(this).find(".img_part .icon").css("background-image", `url(../img/careers/${$train_arr[j].icon})`);
         $(this).find(".img_part h3").text(`${$train_arr[j].program}`);
         $(this).find(".list > ul:nth-child(1) > li > .txt_list").html(`${$train_arr[j].list_tit1}`);
