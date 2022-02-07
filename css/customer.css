@@ -375,7 +375,17 @@ article{
         font-size: 18px;
     }
     #agree .wrap .terms .check{
-        justify-content: flex-start;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #agree .wrap .terms .check h5{
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    #agree .wrap .terms .check .sel{
+        display: flex; 
+
     }
 
     #confirm h1{
