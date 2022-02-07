@@ -32,6 +32,7 @@ $(document).ready(function(){
 
     $("#six_conts .box").each(function(index){
         // console.log(index);
+        // console.log($business_arr[index].bg);
         $(this).css("background-image", `url(./img/business/${$business_arr[index].bg})`);
         $(this).find("h1").html(`<span>0${index+1}</span>${$business_arr[index].tit}`);
         $(this).find("p").html(`${$business_arr[index].detail}`);
