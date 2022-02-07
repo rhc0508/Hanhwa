@@ -73,6 +73,10 @@
     letter-spacing: -1px;
 }
 
+#manage .cir_txt{
+    display: none;
+}
+
 @media (max-width: 1023px){
     #headBg.comp{
         background-position: 25% 50%;
