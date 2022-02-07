@@ -219,9 +219,6 @@ article{
     width: 100%; height: auto;
     padding: 20px 0;
     background: #f4f4f4;
-    /* max-height: 0;
-    transition: max-height 0.5s;
-    overflow: hidden; */
 }
 /* #train .bottom .box .list > ul > li > ul.open{
     max-height: 200px;
@@ -259,7 +256,6 @@ article{
         width: 60%;
         padding-top: 0;
     }
-    #mid_banner .wrap .img_part{}
     #mid_banner .wrap .img_part img{
         width: 260px;
     }
@@ -267,6 +263,9 @@ article{
     #train .bottom .box{
         width: 32%;
         margin-right: 2%;
+    }
+    #train .bottom .box .img_part h3{
+        font-size: 16px;
     }
 }
 @media (max-width:767px){
@@ -320,5 +319,5 @@ article{
         width: 90%;
         margin: 0 auto;
     }
-
+    
 }
